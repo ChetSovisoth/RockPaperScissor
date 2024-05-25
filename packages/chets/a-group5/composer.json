@@ -1,0 +1,33 @@
+{
+    "name": "chets/a-group5",
+    "description": "Rock Paper Scissor Game for Final Project",
+    "type": "library",
+    "license": "RUPP",
+    "autoload": {
+        "psr-4": {
+            "Chets\\AGroup5\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ChetSovisoth",
+            "email": "chet.sovisoth@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chets\\AGroup5\\AGroup5ServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/chets/a-group5"
+        }
+    ]
+}
